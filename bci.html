@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Vinod A Prasad</title>
+	<link rel="stylesheet" href="style.css">
+
+
+	<style type="text/css">
+	
+
+p.contact{
+	font-family: "Helvetica";
+	padding: 1em;
+	text-align: justify;
+}
+.contactInfo {
+	padding: 1em;
+  font-family: "Helvetica";
+}
+.projects{
+  width: auto;
+  display: inline-block;
+  border:2px solid #061a00;
+  text-align: center;
+  padding: 1em;
+  font-family: Helvetica;
+  font-size: 1em;
+}
+#interestGroups:link{
+  background-color: white;
+  color: black;
+  text-decoration: none;
+}
+#interestGroups:visited{
+  background-color: white;
+  color: black;
+  text-decoration: none;
+}
+#interestGroups:hover
+{
+background-color: #ff9966;
+text-decoration: none;
+}
+#interestGroups:active{
+  background-color: white;
+  color: black;
+  text-decoration: none;
+}
+
+	</style>
+</head>
+<body>
+<div class="page">
+    <nav class="ribbon">
+      <div class="container" style="font-size: 2.5em;"> Vinod Achutavarrier Prasad <br/><span style="font-size: 0.75em; padding-left: 0.25em;">IIT Palakkad</span></div>
+        <ul id="menu">
+            <li class="rightMenu"><a href="others.html" target="_self">Other Links</a></li>
+            <li class="rightMenu"><a href="research.html" target="_self">Research</a></li>
+          <li class="rightMenu"><a href="teaching.html" target="_self">Teaching</a></li>
+            <li class="rightMenu"><a href="index.html" target="_self">Home</a></li>
+        </ul> 
+    </nav>
+
+<p class="contact" style="font-size: 2em; padding-bottom: 0; padding-left: 0.5em; text-decoration: underline;"><b>Biomedical Signal Processing</b></p>
+<p class="contact" id="reconfigurable" style="font-size: 1.5em; padding-bottom: 0; padding-left: 0.5em;"><b>Brain-Computer Interface Systems for Decoding and Enhancing Motor and Cognitive Functions</b></p>
+ <p class="contact" style="padding-top: 0.5em; padding-bottom: 0;">
+Brain-Computer Interface (BCI) technology is receiving increased research attention as a potential alternative and augmentative communication and control tool for disabled people. BCI is a communication system that bypasses the conventional motor output pathways of nerves and muscles and directly translates brain signals into commands for controlling an external device such as wheel chair, computer screen and even a neuroprosthetic device. 
+ <br/> <br/>
+My research team has proposed robust and accurate signal processing algorithms to extract discriminative brain activation patterns during hand, foot and tongue in an Electroencephalograph (EEG)-based BCI system. We further investigated the intra subject and inter subject spectral variability of discriminative motor imagery (movement imagination) patterns in EEG and have proposed algorithms to effectively track the varying patterns. The non-stationary features of EEG signals were adaptively estimated in the proposed algorithms and the results achieved indicate that the proposed approach outperforms the state-of-art methods in terms of classification accuracy and highlights the necessity of efficient frequency band selection techniques in real time motor imagery BCI applications. We also contributed in another area of movement control BCIs that aims to decode hand movement kinematics from non-invasive scalp recordings. We proposed various algorithms for demonstrating the presence of movement parameter information in specific space, frequency and time locations of EEG and have developed feature extraction tools to detect them. Significant contributions were made in binary classification of hand movement speed and direction. The proposed algorithms were modified further to achieve multiclass classification of direction and continuous reconstruction of hand movement speed and trajectory. 
+ <br/> <br/>
+We have developed BCI-based Computer games to enhance attention (concentration) and memory of children with attention-deficit hyperactivity disorder (ADHD) - this has the potential as an alternative methodology to train children for enhancing their attention skills to complement conventional pharmacological treatment. Our research developed a brain wave (EEG) driven computer game that can be used by children suffering from ADHD to boost their concentration abilities. Brain signal corresponding to concentration of subjects is used to control the game, which in turn helped to improve the concentration abilities of ADHD children by playing the game in a relaxed mind-set, without the need of undergoing complex behavioural treatment procedures. We developed a BCI system comprising of EEG data acquisition, EEG signal processing methods and computer game which can be controlled with the concentration data acquired from children. Our experimental results clearly showed the benefit of BCIbased game in improving attention and memory skills. 
+ <br/> <br/>
+Conventional approaches use sensor space EEG for classifying movement related tasks. Sensor-space EEG can reveal only limited information about the trivial but complex tasks that involve higher degrees of freedom of movement. On the contrary, source space analysis can provide more information about the neurophysiological mechanism relevant to the task. To this end, we proposed novel source-space feature extraction techniques based on supervised locality sensitive Factor analysis which approximates the neurophysiological functioning of our experimental data in a better way than that of a solely data-driven approach. Using One-versus-rest approach for multiclass classification with Fisher's Linear Discriminant as the primary classifier, we showed that for a multi-class classification problem of classifying the EEG of voluntary arm movement in 4 orthogonal directions, the source space features offer a significant improvement in the classification accuracy compared to sensor space features. 
+</p>
+
+<center><img src="projects/bci_poster.jpg" style="width:90%; height:auto;border: 1px solid black;"></img></center>
+
+<h1 class="contact" id="cognitive" style="font-size: 1.5em; font-family: Helvetica; padding-bottom: 0; padding-left: 0.5em;"><b>EEG Source-space Imaging to Decode Motor Functions
+</b></h1>
+<!--<a id="interestGroups" href="projects/source.pdf" target="_document" style="margin-left: 1em;"><div class="projects" id="interestGroups">Source Localization</div></a> -->
+<p style="padding-left: 1em; padding-right: 1em; text-align: justify; font-family: Helvetica;"> The human brain is arguably one of the most complex structures in the universe and has inspired researchers from various disciplines. Computational intelligence plays a significant role in the conceptual modeling of the human brain and has led to artificial neural networks and related clustering algorithms. Electroencephalography (EEG) is one of the most popular noninvasive brain signal recording techniques due to the advantage of portability, cost-effectiveness, and high temporal resolution, however its application in neuroimaging is limited because of the spatial resolution.  The major challenge in source imaging using EEG is the precise localization of task-related cortical sources, although the recording is done using few (usually less than 100 channels). EEG source localization itself is an ill-posed problem due to the limited number of EEG channels (less than 100) as compared to the significantly larger number of cortical sources (order of few billion). Furthermore, to classify complex motor imagery tasks such as shoulder abduction, elbow flexion, wrist pronation and supination and other related ones, we need to know more about the underlying neurophysiological phenomenon that concerns the activation of these complex tasks. Therefore, it is necessary to use a priori information to solve this ill-posed problem by employing head model, a noise model, and cortical region of interest. Even then, the inverse modeling alone may not provide any discriminative information about a given task.  Therefore, there is scope for developing new algorithms that can provide discriminative information in the cortical subspace while still justifying the neurophysiological phenomenon. Any such desirable algorithm to analyze source space should ideally be able to, 
+</p>
+<ol style="font-family:Helvetica;">
+<li>Solve the inverse problem </li>
+<li>Handle data non-stationarity and noise </li>
+<li>Explain the collective behavior of neural population </li>
+<li>Explain the variability within the neural population </li>
+<li>Justify the neurophysiological phenomenon of a given task </li>
+<li>Provide sufficient information for the robust classification of complex tasks </li>
+
+</ol>
+
+<p style="padding-left: 1em; padding-right: 1em; text-align: justify; font-family: Helvetica;"> Since the EEG recordings can be used to model the cortical source activity regarding source dipoles, clustering of these source dipoles particular for a given task can be done using nature-inspired computational intelligence algorithms. Motor homunculus is a familiar concept in neuroscience, which presents a neurological map of the anatomical division of the body. According to this concept, the cortical sources associated with the activation of different body parts are mapped to different regions in the motor cortex. Thus, several cortical sources would be related to each other in functionality, and their dimensions can be substantially reduced without losing much of useful information. To achieve this, we use robust dimension reduction algorithms such as Locality Preserving Projections which take neighborhood information into account.  Further, we developed the supervised approach of Factor analysis for robust feature extraction. The main highlight of supervised factor analysis is identifying the task-dependent cortical sources for a given class to classify multiclass tasks.  Motivation to use factor analysis lies in its inherent data modeling properties that is suitable for non-stationary cortical source timeseries data. Extending further, several machine learning techniques such as latent variable models can be explored in EEG source imaging applications. Cortical source-space EEG measures have applications in prognosticating the neuromotor diseases such as stroke by using the connectivity measures as cortical biomarkers. 
+</p>
+<div style="overflow: auto; text-align: center;"><img src="projects/vikram.png" style="margin: auto; width: 600px; height: auto;"></div>
+
+<!-- <a id="interestGroups" href="projects/reconfig.pdf" target="_document" style="margin-left: 1em;"><div class="projects" id="interestGroups">Reconfigurable Low Power Signal Processing Architectures for Multi-Standard Wireless Communication Systems </div></a> -->
+
+<p style="padding-left: 1em;"><a href="interests.html"><< Back to Research Interests</a></p>
+</div>
+
+
+
+</body>
+</html>
+

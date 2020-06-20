@@ -1,0 +1,44 @@
+body
+{
+    background-color: #f2f2f2;
+}
+.page {
+    width: 70%;
+    margin: auto;
+    border: 1px solid black;
+    padding-bottom: 1em;
+    overflow: auto;
+    background-color: white;
+}
+.container
+{
+    font-size: 1.5em;
+    background-color: #061a00;
+    color: white;
+    padding:0.2em;   
+}
+li a
+{
+	float: right;
+	font-family: Helvetica;
+	text-decoration: none;
+	font-size: 1em;
+	color: black;
+}
+a:hover
+{
+	background-color: #ddd;
+	transform: scale(1.1,1.1);
+	text-decoration: underline;
+
+}
+ul {
+	list-style-type: none;
+	overflow: hidden;
+
+}
+li a
+{
+	display: block;
+	padding: 8px;
+}
